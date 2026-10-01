@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <script>(function(){var r=document.documentElement;r.classList.remove('no-js');
 /* la firma: finché main.js non parte le dita restano sollevate e il cartoncino vuoto; se il codice non arriva, dopo 2,5 s la tavola è scritta (stato finale) */
 try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add('firma-attesa');window.__attesaFischio=setTimeout(function(){r.classList.remove('firma-attesa')},2500)}}catch(e){}})()</script>
@@ -20,15 +21,66 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&amp;family=Grenze+Gotisch:wght@600;700&amp;family=Oxygen:wght@400;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
 <script src="js/main.js?v=1" defer></script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BarOrPub","name":"Tin Whistle Irish Pub","alternateName":"Tin Whistle","description":"Pub irlandese in Via Lodovico il Moro 55 a Milano, sul Naviglio Grande: birre irlandesi alla spina e artigianali, panini, piadine, hamburger e pinse.","url":"https://rotenzark.github.io/tin-whistle-ronchetto/","image":"https://rotenzark.github.io/tin-whistle-ronchetto/img/og.jpg","telephone":"+39 02 813 7670","servesCuisine":"Pub","address":{"@type":"PostalAddress","streetAddress":"Via Lodovico il Moro 55","postalCode":"20143","addressLocality":"Milano","addressRegion":"MI","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":45.4452,"longitude":9.1447},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"11:00","closes":"15:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"20:00","closes":"02:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.4","reviewCount":"391","bestRating":"5"},"sameAs":["https://www.facebook.com/tinwhistlemilano"]}
+{
+  "@context": "https://schema.org",
+  "@type": "BarOrPub",
+  "name": "Tin Whistle Irish Pub",
+  "alternateName": "Tin Whistle",
+  "description": "Pub irlandese in Via Lodovico il Moro 55 a Milano, sul Naviglio Grande: birre irlandesi alla spina e artigianali, panini, piadine, hamburger e pinse.",
+  "url": "https://rotenzark.github.io/tin-whistle-ronchetto/",
+  "image": "https://rotenzark.github.io/tin-whistle-ronchetto/img/og.jpg",
+  "telephone": "+39 02 813 7670",
+  "servesCuisine": "Pub",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Lodovico il Moro 55",
+    "postalCode": "20143",
+    "addressLocality": "Milano",
+    "addressRegion": "MI",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.4452,
+    "longitude": 9.1447
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "11:00",
+      "closes": "15:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "20:00",
+      "closes": "02:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/tinwhistlemilano"
+  ]
+}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
@@ -250,11 +302,11 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
       <p class="voto"><b class="voto__n">4,4</b> <span class="voto__su" data-i18n="d.google">su Google, 391 recensioni</span></p>
     </div>
     <ul class="recensioni">
-      <li class="recensione reveal"><p class="recensione__testo">«Stupendo pub in zona navigli, personale gentilissimo e disponibile. Il posto migliore della zona in cui fermarsi a prendere una Guinness!»</p><p class="recensione__chi"><b>Luca Ambrosini</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Arrivato a milano martedì dopo Pasquetta, alle 00:30 digiuno dalle 12:30, <span class="taglio">[…]</span> tutti chiusi o “abbiamo chiuso ora la cucina” , gentilmente mi dicono che sono ancora aperti.<br>Bene, che sorpresa! Personale gentile, posto caldo e accogliente quasi intimo, buon cibo ottima birra.<br>Bravi !»</p><p class="recensione__chi"><b>Giuseppe Davide Galli</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Una delle guinness migliori di Milano.<br>Buona varietà di birre e di piatti (classici da pub quali piadine hamburger e pinse romane). <span class="taglio">[…]</span>»</p><p class="recensione__chi"><b>Andrea Rumoro (Rumo98)</b> <span data-i18n="d.g3a">Google, 3 anni fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«Ci torni dopo anni e con molto piacere mi accorgo che nulla è cambiato. Ottime birre e anche il cibo per accompagnarle.<br>Gestori e personale cordiale, e atmosfera tranquilla che permette di parlare tranquillamente sorseggiando una birra.<br>Perfetto per staccare dopo il lavoro.»</p><p class="recensione__chi"><b>Angelo Vasa</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
-      <li class="recensione reveal"><p class="recensione__testo">«ottimo pub in stile Irish. ambiente accogliente, birre e cibo buoni. nota di merito per l&#39;irish coffee, davvero ben fatto!»</p><p class="recensione__chi"><b>Lucrezia Luppichini</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Stupendo pub in zona navigli, personale gentilissimo e disponibile. Il posto migliore della zona in cui fermarsi a prendere una Guinness!»</p><p class="recensione__chi"><b>Luca Ambrosini</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Arrivato a milano martedì dopo Pasquetta, alle 00:30 digiuno dalle 12:30, <span class="taglio">[…]</span> tutti chiusi o “abbiamo chiuso ora la cucina” , gentilmente mi dicono che sono ancora aperti.<br>Bene, che sorpresa! Personale gentile, posto caldo e accogliente quasi intimo, buon cibo ottima birra.<br>Bravi !»</p><p class="recensione__chi"><b>Giuseppe Davide Galli</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Una delle guinness migliori di Milano.<br>Buona varietà di birre e di piatti (classici da pub quali piadine hamburger e pinse romane). <span class="taglio">[…]</span>»</p><p class="recensione__chi"><b>Andrea Rumoro (Rumo98)</b> <span data-i18n="d.g3a">Google, 3 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«Ci torni dopo anni e con molto piacere mi accorgo che nulla è cambiato. Ottime birre e anche il cibo per accompagnarle.<br>Gestori e personale cordiale, e atmosfera tranquilla che permette di parlare tranquillamente sorseggiando una birra.<br>Perfetto per staccare dopo il lavoro.»</p><p class="recensione__chi"><b>Angelo Vasa</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
+      <li class="recensione reveal"><p lang="it" class="recensione__testo">«ottimo pub in stile Irish. ambiente accogliente, birre e cibo buoni. nota di merito per l&#39;irish coffee, davvero ben fatto!»</p><p class="recensione__chi"><b>Lucrezia Luppichini</b> <span data-i18n="d.g2a">Google, 2 anni fa</span></p></li>
       <li class="recensione reveal"><p class="recensione__testo">«Il perfetto pub irlandese!<br>Ottima selezione di birre, arredo fantastico e la Guinnes spillata come fossimo nei verdi campi d&#39;oltre manica. <span class="taglio">[…]</span><br>Come stare a casa ma... Meglio!»</p><p class="recensione__chi"><b>Dario Passaro</b> <span data-i18n="d.g8a">Google, 8 anni fa</span></p></li>
     </ul>
     <p class="dicono__nota"><span data-i18n="d.nota">Dalle recensioni su Google, come sono state scritte. Anche la frase in alto viene da una recensione su Google.</span> <a href="https://www.google.com/maps/search/?api=1&amp;query=Tin+Whistle%2C+Via+Lodovico+il+Moro+55%2C+Milano" target="_blank" rel="noopener" data-i18n="d.tutte">Tutte le recensioni su Google</a></p>
@@ -292,7 +344,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     </div>
     <div class="dove">
       <div class="cartina reveal">
-        <iframe title="Mappa: Tin Whistle, Via Lodovico il Moro 55, Milano" data-i18n-title="o.mappa" src="https://maps.google.com/maps?q=Tin%20Whistle%2C%20Via%20Lodovico%20il%20Moro%2055%2C%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="mappa-clic" data-mappa-clic style="--mappa-h: 400px"><template><iframe title="Mappa: Tin Whistle, Via Lodovico il Moro 55, Milano" data-i18n-title="o.mappa" src="https://maps.google.com/maps?q=Tin%20Whistle%2C%20Via%20Lodovico%20il%20Moro%2055%2C%20Milano&amp;z=16&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Tin+Whistle%2C+Via+Lodovico+il+Moro+55%2C+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
       </div>
       <dl class="indirizzo">
         <div><dt data-i18n="o.dove">Dove</dt><dd data-i18n="o.dovev">Via Lodovico il Moro 55, 20143 Milano, sulla via lungo il Naviglio Grande</dd></div>
@@ -322,7 +374,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <p class="insegna insegna--piede" aria-hidden="true"><span class="insegna__pub">Irish Pub</span><span class="insegna__nome">Tin Whistle</span></p>
     <p class="piede__dove">Via Lodovico il Moro 55, 20143 Milano · <a href="tel:+39028137670" class="intero">02 813 7670</a></p>
     <p class="piede__orario" data-i18n="f2.orario">Lunedì–venerdì 11–15:30 e 20–2 · sabato 20–2 · domenica chiuso</p>
-    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · le foto vengono dalla loro scheda Google, scattate dai clienti; orari e recensioni da Google (settembre 2026). La diteggiatura l&#39;abbiamo disegnata noi.</p>
+    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · <a href="privacy.html">Privacy</a> · le foto vengono dalla loro scheda Google, scattate dai clienti; orari e recensioni da Google (settembre 2026). La diteggiatura l&#39;abbiamo disegnata noi.</p>
     <p><a class="piede__su" href="#inizio" data-i18n="f2.su">Torna su ↑</a></p>
   </div>
 </footer>
@@ -337,5 +389,6 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
   <img id="lightboxImg" src="" alt="">
 </div>
 
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
